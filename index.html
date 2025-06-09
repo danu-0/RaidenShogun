@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicoding Final Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-cont">
+      <div class="logo">
+        <img src="images/img/profile2.png" alt="logo" />
+        <h1>RAIDEN SHOGUN</h1>
+      </div>
+      <div class="mobile-list" id="moblist" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <nav class="navbar-list" id="navlist">
+        <ul>
+          <li><a href="#content">Summary</a></li>
+          <li><a href="#about">Biography</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content" id="content">
+        <section class="sumtext">
+          <h2><span class="pt">Inazuma</span> Archon</h2>
+          <h3>
+            <span class="pt">Shogun</span> <span class="jp"> 雷電将軍 </span>
+          </h3>
+          <p>
+            Raiden Shogun is a character in
+            <span class="pt">Genshin Impact</span> who hails from the Inazuma
+            region, one of the in-game regions. She is known as the
+            <span class="pt">Shogun</span> and is a powerful and enigmatic
+            figure who rules over Inazuma. Her character design is inspired by
+            traditional Japanese and samurai aesthetics.
+          </p>
+          <p>
+            The Electro Archon known as <span class="pt"> "Baal"</span>. Baal is
+            the ruler of the Inazuma region, which is the Electro region in the
+            game <span class="pt"> Genshin Impact</span>. Baal is a strong and
+            enigmatic character in the
+            <span class="pt">Genshin Impact</span> storyline.
+          </p>
+        </section>
+        <section class="sumimg">
+          <img src="/images/img/raiden1.jpg" alt="img" />
+        </section>
+      </div>
+      <div class="about" id="about">
+        <div class="aboutimage">
+          <img src="/images/img/abouther.jpg" alt="" />
+        </div>
+        <div class="aboutbio">
+          <h2>ABOUT HER</h2>
+          <div class="bio">
+            <h3>Personality</h3>
+            <p>
+              Raiden Shogun is portrayed as a stern and noble leader. She
+              carries herself with a sense of duty and responsibility as the
+              ruler of Inazuma, and she is deeply committed to her vision for
+              the nation's future. Despite her stoic demeanor, she is also shown
+              to be caring and compassionate toward her people. Her character is
+              complex, torn between her aspirations and the consequences of her
+              actions.
+            </p>
+          </div>
+          <div class="bio">
+            <h3>Role</h3>
+            <p>
+              Raiden Shogun is a playable character in Genshin Impact. She
+              wields a polearm and specializes in the Electro element. Her
+              combat abilities revolve around unleashing powerful Electro
+              attacks, and her Elemental Burst ability, Secret Art: Musou
+              Shinsetsu, is a notable part of her combat kit.
+            </p>
+          </div>
+          <div class="bio">
+            <h3>Likes & Weaknesses</h3>
+            <p>
+              Despite her noble image, the Raiden Shogun has a strong fondness
+              for sweet foods, especially dango and Inazuma desserts. However,
+              she is extremely poor at cooking, her attempts often resulting in
+              inedible dishes, much to the dismay of others.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="profile" id="profile">
+        <div class="frame">
+          <h2>PROFILE</h2>
+          <div class="pro">
+            <div class="pp">
+              <img src="images/img/profil.png" alt="" />
+            </div>
+            <table class="biodata" cellspacing="10">
+              <tr class="nama">
+                <th scope="row">Name</th>
+                <td>
+                  : Raiden Shogun
+                  <span class="jp">( 雷らい電でん将しょう軍ぐん )</span>
+                </td>
+              </tr>
+              <tr class="gender">
+                <th scope="row">Gender</th>
+                <td>: Female</td>
+              </tr>
+              <tr class="country">
+                <th scope="row">Country</th>
+                <td>: Inazuma</td>
+              </tr>
+              <tr class="vision">
+                <th scope="row">Vision</th>
+                <td>: Electro</td>
+              </tr>
+              <tr class="seiyu">
+                <th scope="row">Jpn Seiyu</th>
+                <td>
+                  : Miyuki Sawashiro <span class="jp">(沢城 みゆき)</span>
+                </td>
+              </tr>
+            </table>
+            <button id="buton" onclick="btnProfile()">
+              <h3>See More..</h3>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="gameplay" id="gameplay">
+        <h2 class="gameplayTitle">GAMEPLAY</h2>
+        <div class="animation">
+          <section class="animImg">
+            <img src="/images/img/raiden4.jpg" alt="img" />
+          </section>
+          <section class="animGif">
+            <h2>Animation Skills</h2>
+
+            <div class="grid-gif">
+              <div class="na">
+                <img src="images/animation/na.webp" alt="Normal attacks" />
+                <h3>Normal Attack</h3>
+              </div>
+              <div class="ca">
+                <img src="images/animation/ca.webp" alt="Charged attacks" />
+                <h3>Charged Attack</h3>
+              </div>
+              <div class="pa">
+                <img src="images/animation/pa.webp" alt="Plunging attacks" />
+                <h3>Plunging Attack</h3>
+              </div>
+              <div class="es">
+                <img src="images/animation/es.webp" alt="Elemental Skill" />
+                <h3>Elemental Skill</h3>
+              </div>
+              <div class="eb">
+                <img src="images/animation/eb.webp" alt="Elemental Burst" />
+                <h3>Elemental Burst</h3>
+              </div>
+              <div class="bt">
+                <img src="images/animation/bt.webp" alt="Burst Triangle" />
+                <h3>Burst Triangle</h3>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="trailer" id="trailer">
+        <h2 class="demo">Trailer Character</h2>
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/mvrW4aKwAXw"
+            title="Raiden Shogun Demo"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="des">
+          <p>
+            <span class="purple">Raiden Shogun</span> is a highly anticipated
+            character in the popular action role-playing game
+            <span class="purple">Genshin Impact</span>. As of my last knowledge
+            update in January 2022, I'll provide a general description based on
+            information available up to that point. Keep in mind that there
+            might have been updates or changes to the game since then.
+          </p>
+          <p>
+            Raiden Shogun is a waifu able character that is sought after by
+            Genshin Impact players Curious about Raiden Shoogun in more depth?
+            Just check out some of Mihoyo's social media below
+          </p>
+        </div>
+      </div>
+      <button id="toggleHide" class="toggle-btn">&lt;</button>
+      <aside id="aside" class="hide">
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/@GenshinImpact" target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/genshinimpact" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://x.com/GenshinImpact" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com/Genshinimpact" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        &copy; 2023 RaidenShogun Mihoyo All Right Reserved <br />Terms of Use |
+        Privacy Police
+      </p>
+    </footer>
+    <script src="other/main.js"></script>
+  </body>
+</html>
