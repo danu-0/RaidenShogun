@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dicoding Final Task</title>
+    <title>Raiden Portofolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -27,13 +27,14 @@
           <li><a href="#content">Summary</a></li>
           <li><a href="#about">Biography</a></li>
           <li><a href="#profile">Profile</a></li>
+          <li><a href="#gameplay">Gameplay</a></li>
           <li><a href="#trailer">Trailer</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="content" id="content">
-        <section class="sumtext">
+        <article class="sumtext">
           <h2><span class="pt">Inazuma</span> Archon</h2>
           <h3>
             <span class="pt">Shogun</span> <span class="jp"> 雷電将軍 </span>
@@ -53,16 +54,16 @@
             enigmatic character in the
             <span class="pt">Genshin Impact</span> storyline.
           </p>
-        </section>
+        </article>
         <section class="sumimg">
           <img src="images/img/raiden1.jpg" alt="img" />
         </section>
       </div>
       <div class="about" id="about">
-        <div class="aboutimage">
-          <img src="images/img/abouther.jpg" alt="" />
-        </div>
-        <div class="aboutbio">
+        <section class="aboutimage">
+          <img src="images/img/abouther.jpg" alt="img" />
+        </section>
+        <article class="aboutbio">
           <h2>ABOUT HER</h2>
           <div class="bio">
             <h3>Personality</h3>
@@ -95,14 +96,14 @@
               inedible dishes, much to the dismay of others.
             </p>
           </div>
-        </div>
+        </article>
       </div>
       <div class="profile" id="profile">
-        <div class="frame">
+        <section class="frame">
           <h2>PROFILE</h2>
           <div class="pro">
             <div class="pp">
-              <img src="images/img/profil.png" alt="" />
+              <img src="images/img/profil.png" alt="img" />
             </div>
             <table class="biodata" cellspacing="10">
               <tr class="nama">
@@ -131,11 +132,11 @@
                 </td>
               </tr>
             </table>
-            <button id="buton" onclick="btnProfile()">
+            <button id="btnProfile" onclick="btnProfile()">
               <h3>See More..</h3>
             </button>
           </div>
-        </div>
+        </section>
       </div>
       <div class="gameplay" id="gameplay">
         <h2 class="gameplayTitle">GAMEPLAY</h2>
@@ -186,7 +187,7 @@
           >
           </iframe>
         </div>
-        <div class="des">
+        <article class="des">
           <p>
             <span class="purple">Raiden Shogun</span> is a highly anticipated
             character in the popular action role-playing game
@@ -196,15 +197,23 @@
             might have been updates or changes to the game since then.
           </p>
           <p>
-            Raiden Shogun is a waifu able character that is sought after by
-            Genshin Impact players Curious about Raiden Shoogun in more depth?
+            Raiden Shogun is a popular waifu character highly sought after by
+            Genshin Impact players. Curious about Raiden Shoogun in more depth?
             Just check out some of Mihoyo's social media below
           </p>
-        </div>
+        </article>
       </div>
       <button id="toggleHide" class="toggle-btn">&lt;</button>
       <aside id="aside" class="hide">
         <div class="social-media">
+          <ul class="aside-logo">
+            <li>
+              <a href="#navlist">
+                <img src="images/img/profile2.png" alt="Raiden Logo" />
+              </a>
+              <p>Raiden</p>
+            </li>
+          </ul>
           <ul>
             <li>
               <a href="https://www.youtube.com/@GenshinImpact" target="_blank"
@@ -236,6 +245,6 @@
         Privacy Police
       </p>
     </footer>
-    <script src="other/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -238,7 +238,7 @@ main {
   vertical-align: top;
 }
 
-#buton {
+#btnProfile {
   border-radius: 18px;
   margin: 0 auto;
   height: auto;
@@ -251,7 +251,7 @@ main {
   color: white;
 }
 
-#buton:hover {
+#btnProfile:hover {
   color: #89b0d9;
   transition: all 0.3s ease-in-out;
 }
@@ -406,6 +406,24 @@ main aside.hide {
 
 .toggle-btn:hover {
   background-color: #89b0d9;
+}
+
+.aside-logo {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.aside-logo img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.aside-logo img:hover {
+  transform: scale(1.1);
 }
 
 main aside .social-media {
